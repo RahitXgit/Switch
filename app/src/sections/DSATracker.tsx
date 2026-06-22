@@ -12,7 +12,7 @@ import { Progress } from '@/components/ui/progress';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Search, CheckCircle2, Circle, ExternalLink, Filter } from 'lucide-react';
 import type { DSAProgress } from '@/data/dsaProblems';
-import { dsaProblems, dsaTopics, getTopicProgress, getMonthProgress } from '@/data/dsaProblems';
+import { dsaProblems, dsaTopics, getMonthProgress } from '@/data/dsaProblems';
 
 interface DSATrackerProps {
   progress: DSAProgress;
